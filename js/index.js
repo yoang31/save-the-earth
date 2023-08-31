@@ -88,11 +88,6 @@ window.onload = function(){
             event.target.children[0].style.cssText = "opacity:0;transform: translateY(20px);transition: 0.0s all linear;";
             event.target.style.transition = "1s all linear";
         });
-        content3_imgs[i].addEventListener('touchstart', (event) => {
-            event.target.children[0].style.cssText = "opacity:1;transform:translateY(0px);transition: 0.3s all linear;";
-            event.target.sibling.children[0].style.cssText = "opacity:0;transform: translateY(20px);transition: 0.0s all linear;";
-            event.target.style.transition = "0.3s all linear";
-        });
     }
     //section title 시작
     var section = new Up_opacity();
